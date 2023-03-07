@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 't';
+    src: url('../fonts/megaman_2.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #7684ff;
+    color: rgb(255, 255, 255);
+}
+
+.fondo {
+    background-image: url(../images/0364_super_mario_bros_1.png);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.mariomotion {
+    position: relative;
+    animation: mario 15s infinite;
+    display: flex;
+}
+
+.titulos {
+    color: yellow;
+    font-family: 'todos';
+}
+
+video {
+    opacity: 0.2;
+}
+
+@keyframes mario {
+    1%          {top: 783px;}
+    5%          {top: 783px; left: 210px;}
+    10%         {top: 783px; left: 210px;}
+    20%         {top: 783px; left: 210px;}
+    26%         {top: 783px; left: 210px;}
+    27%, 30%    {top: 783px; left: 210px;}
+    31%         {top: 783px; left: 210px;}
+    32%, 35%    {top: 783px; left: 210px;}
+    40%         {top: 783px; left: 210px;}
+    50%         {top: 783px; left: 1000px;}
+    60%         {top: 783px; left: 210px;}
+    70%         {top: 783px; left: 210px;}
+    75%         {top: 140px;}
+    
+}
